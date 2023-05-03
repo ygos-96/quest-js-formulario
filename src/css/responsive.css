@@ -1,0 +1,47 @@
+@media (max-width: 990px) {
+    .main {
+        flex-direction: column;
+    }
+    .main .texts .title {
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .texts .message {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .form {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 530px) {
+    .main .texts .title {
+        font-size: 2rem;
+    }
+
+    .main .texts .message {
+        font-size: 14px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main .texts .title {
+        font-size: 2rem;
+    }
+
+    .main .texts .message {
+        font-size: 12px;
+        margin-left: 60px;
+        flex-wrap: wrap;
+    }
+}

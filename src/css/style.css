@@ -1,0 +1,96 @@
+body {
+    font-family: "roboto", sans-serif;
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-size: contain;
+    min-height: 100vh;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main .texts {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    color: var(--cor-principal);
+}
+
+.main .texts .title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 40px;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+.main .texts .message {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 40px;
+    width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 450px;
+    background-color: var(--cor-principal);
+}
+
+.form .input,
+.textarea {
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 20px 0px 20px;
+    height: 35px;
+    padding: 9px 8px;
+    border-radius: 5px;
+}
+
+.form .textarea {
+    height: 200px;
+}
+
+.form p {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--cor-borda-input);
+    margin: 8px 20px 20px 20px;
+}
+
+.form .button {
+    background-color: var(--cor-botao);
+    color: var(--cor-principal);
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    margin: 0px 20px 20px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.required {
+    border: 1px solid var(--cor-input-vazio);
+}
+
+.confirm {
+    border: 1px solid var(--cor-input-preenchido);
+}
+
+.form .span {
+    color: var(--cor-input-vazio);
+    margin-left: 20px;
+    margin-top: 0;
+    display: none;
+}
